@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="x-icon" href="src/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link 
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" 
+    rel="stylesheet" 
+  />
+    <title>KoKo</title>
+  </head>
+  <body>
+    <nav>
+        <div class="nav__content" id="home">
+          <div class="logo"><a href="#">KoKo</a></div>
+          <label for="check" class="checkbox">
+            <i class="ri-menu-line"></i>
+          </label>
+          <input type="checkbox" name="check" id="check" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          
+        
+        <div class="nav_icons"> 
+          <a href="#"><i class="bx bx-user"></i></a> 
+          <a href="#"><i class="bx bx-shopping-bag"></i></a> 
+        </div> 
+      </div> 
+    </div>
+      </nav>
+
+    <header class="section__container header__container">
+      <div class="header__image__container">
+        <div class="header__content">
+          <h1>Elevating Your Coffee Experience, One Perfect Sip at a Time.</h1>
+          <p>Find comfort in a cup with KoKo</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+        <h2 class="section__header">About <span> Us</span></h2>
+        <div class="about__grid">
+        <div class="about__image">
+          <img src="src/img1.png" alt="header" />
+        </div>
+        <div class="about__content">
+          <h1></h1>
+          <p class="section__description">
+            KoKo Coffee Shop is a warm and inviting neighborhood café that exudes a cozy, welcoming atmosphere. The space features modern yet comfortable furnishings, with soft lighting and tasteful decor that creates a relaxed environment.<br>
+          <br>
+            At KoKo, you can enjoy a wide selection of expertly brewed coffees, from rich, bold espresso-based drinks to smooth, aromatic pour-overs. The coffee beans are sourced from premium, ethical suppliers, ensuring every cup delivers a unique and memorable experience.
+<br><br>
+In addition to coffee, KoKo offers a delicious assortment of fresh pastries and snacks, perfect for a quick bite or a leisurely treat. The friendly, knowledgeable staff is always on hand to offer recommendations and make your visit special. Whether you're catching up with friends, working remotely, or simply taking a moment to yourself, KoKo Coffee Shop is the ideal spot to unwind and enjoy great coffee.
+
+          </p>
+          <div class="btn__container">
+          <button class="about__btn">Learn More</button>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container products__container" id="products">
+      <h2 class="section__header">Products</h2><br>
+      <div class="products__grid">
+
+        <div class="products__card">
+          <button onclick="Toggle1()" id="btnh1" class="btnn"><i class="bx bx-heart heart_icon"></i></button>
+          <img src="src/1.png" alt="Products" />
+          <div class="products__content">
+            <div class="products__card__header">
+              <h4>Toffee Sundae</h4>
+              <h4>₱120.00</h4>
+            </div>
+            <p>Sundae Dasher</p>
+          </div>
+        </div>
+
+        <div class="products__card">
+          <button onclick="Toggle2()" id="btnh2" class="btnn"><i class="bx bx-heart heart_icon"></i></button>
+          <img src="src/2.png" alt="Products" />
+            <div class="products__content">
+              <div class="products__card__header">
+                <h4>Fudge Brownie</h4>
+                <h4>₱120.00</h4>
+              </div>
+              <p>Sundae Dasher</p>
+            </div>
+          </div>
+
+          <div class="products__card">
+            <button onclick="Toggle3()" id="btnh3" class="btnn"><i class="bx bx-heart heart_icon"></i></button>
+            <img src="src/3.png" alt="Products" />
+            <div class="products__content">
+              <div class="products__card__header">
+                <h4>Razzle Dazzle</h4>
+                <h4>₱120.00</h4>
+              </div>
+              <p>Splashed Iced Latte</p>
+            </div>
+          </div>
+          
+
+          <div class="products__card">
+            <button onclick="Toggle4()" id="btnh4" class="btnn"><i class="bx bx-heart heart_icon"></i></button>
+            <img src="src/4.png" alt="Products" />
+            <div class="products__content">
+              <div class="products__card__header">
+                <h4>Milano</h4>
+                <h4>₱90.00</h4>
+              </div>
+              <p>Coffee Latte Roaster</p>
+            </div>
+          </div>
+
+          <div class="products__card">
+            <button onclick="Toggle5()" id="btnh5" class="btnn"><i class="bx bx-heart heart_icon"></i></button>
+            <img src="src/5.png" alt="Products" />
+            <div class="products__content">
+              <div class="products__card__header">
+                <h4>Americano</h4>
+                <h4>₱90.00</h4>
+              </div>
+              <p>Coffee Roaster</p>
+            </div>
+          </div>
+
+          <div class="products__card">
+            <button onclick="Toggle6()" id="btnh6" class="btnn"><i class="bx bx-heart heart_icon"></i></button>
+            <img src="src/6.png" alt="Products" />
+            <div class="products__content">
+              <div class="products__card__header">
+                <h4>Matcha Latte</h4>
+                <h4>₱120.00</h4>
+              </div>
+              <p>Coffee Latte Roaster</p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+  <section class="section__container contact__container" id="contact">
+    <h2 class="section__header">Contact</h2>
+    <div class="contact__grid">
+      <div class="container">
+        <div class="content">
+            <div class="left-side">
+                <img src="src/Untitled design.png" alt="">   
+            </div>
+
+            <div class="right-side">
+                <div class="topic-text">Get in touch!</div>
+                <p>Please drop us a line if you want to reserve a table or if you have questions.</p>
+            <form action="">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Email Address">
+                </div>
+                <div class="input-box message-box">
+                    <textarea placeholder="Write a message..."></textarea>
+                </div>
+                <div class="button">
+                   <input type="button" value="Submit">
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    </div>
+  </section>
+   
+  <footer>
+    <div class="footer__container">
+        <div class="sec aboutus">
+            <h2>About Us</h2>
+            <p>KoKo is your go-to spot for freshly brewed coffee and delightful pastries. We're passionate about crafting the perfect cup and providing a warm, 
+              inviting atmosphere for our community.With ethically sourced beans and a team of friendly baristas, we aim to make every visit special. 
+              Come and experience our love for coffee today!</p>
+            <ul class="sci">
+                <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+                <li><a href="#"><i class="ri-instagram-fill"></i></a></li>
+                <li><a href="#"><i class="ri-youtube-fill"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="sec quicklinks">
+            <h2>Support</h2>
+            <ul>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="sec contact">
+        <h2>Contact</h2>
+        <ul class="info">
+        <li>
+            <span><i class="ri-phone-line"></i></span><p><a href="#">(+63)123 456 7890</a></p>
+        </li>
+        </ul>
+
+        <ul class="info">
+        <li>
+            <span><i class="ri-mail-fill"></i></span><p><a href="#">paniserika06@gmail.com</a></p>
+        </li>
+        </ul>
+
+        </div>
+    </div>
+</footer>
+<div class="copyrightText">
+    <p>&copy; 2024 Erika Anne | All Rights Reserved.</p>
+</div>
+
+<script src="myscripts.js"></script> 
+
+  </body>
+</html>
